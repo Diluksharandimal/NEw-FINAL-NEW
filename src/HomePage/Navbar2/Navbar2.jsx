@@ -22,6 +22,7 @@ const Navbar2 = () => {
         {link:"Drving Schools", path:"scl"},
         {link:"Applicants", path:"cus"},
         {link:"About Us", path:"about"},
+        {path:"/school"},
         {path:"dep"}
         
     ]
@@ -55,7 +56,7 @@ const Navbar2 = () => {
                 <button  className='bg-white py-2 px-8 transition-all duration-300 rounded-full right-8
                  hover:text-gray-100 hover:bg-blue-900 ' ><a href='/LoginD'>Department</a></button>
                    <button  className='bg-white py-2 px-8 transition-all duration-300 rounded-full right-8
-                 hover:text-gray-100 hover:bg-blue-900 ' ><a href='/'>Schools</a></button>
+                 hover:text-gray-100 hover:bg-blue-900 ' ><a href='/school'>Schools</a></button>
                    <button  className='bg-white py-2 px-8 transition-all duration-300 rounded-full right-8
                  hover:text-gray-100 hover:bg-blue-900 -mr-8' ><a href='/signup'>Customers</a></button>
       
